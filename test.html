@@ -1,0 +1,21 @@
+<html>
+<head>
+    <script src="js/libs/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+<div>
+    <a href="tdhunder://abc.com" onerror="myOnError()">Open</a>
+</div>
+<script>
+    function myOnError(e){
+        console.log(e);
+    }
+    $(window).error(function(e){
+        console.log(e);
+    });
+    $(document).error(function(e){
+        console.log(e);
+    });
+</script>
+</body>
+</html>

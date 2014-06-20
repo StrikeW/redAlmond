@@ -1,0 +1,23 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "img/icon-auto.png",
+      "default_popup": "popup.html",
+      "default_title": "红杏"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval' http://127.0.0.1 https://ssl.google-analytics.com; object-src 'self';",
+   "description": "最简单易用的科学上网服务，为国际化的互联网工作者量身打造，一键将网站加入白名单，透明穿Wall。无繁琐配置(无需：goAgent/ShadowSocks/Proxy Switchysharp/VPN/自己搭代理服务器)，即装即用。",
+   "icons": {
+      "128": "img/logo.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChjvyuydsD+oBRni5bp3rE0jjLCNlHmkGeGCWDKx7OvFkTsPLlqsrHEL146DKtCdB5PpJ7pXBr4hhdqmTySuMhJPPidSc4VYEH5o8nXBLhNdnOFVFeuZ6cShan8t+5ILFn3TQPfvVqkvMERXd49C0x/Jrw7MG/WXHYOc6XJgLI+QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "22.0.0",
+   "name": "红杏",
+   "options_page": "options.html",
+   "permissions": [ "management", "proxy", "idle", "tabs", "cookies", "notifications", "webRequest", "webRequestBlocking", "http://*/", "https://*/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.2.16"
+}
